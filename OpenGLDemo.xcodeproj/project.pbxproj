@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1F633C2AC51366003DCDF3 /* Day5_Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1F633A2AC51366003DCDF3 /* Day5_Demo1.cpp */; };
+		AB1F633F2AC7B64C003DCDF3 /* Day5_Demo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1F633D2AC7B64C003DCDF3 /* Day5_Demo2.cpp */; };
+		AB1F63422AC7CE67003DCDF3 /* Day5_Demo3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1F63402AC7CE67003DCDF3 /* Day5_Demo3.cpp */; };
+		AB1F63452AC7EEED003DCDF3 /* Day5_Demo4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1F63432AC7EEED003DCDF3 /* Day5_Demo4.cpp */; };
+		AB70B6172A6D665B00969A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB70B6162A6D665B00969A8A /* Assets.xcassets */; };
+		AB70B61A2A6D665B00969A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB70B6182A6D665B00969A8A /* Main.storyboard */; };
+		AB70B6232A6D666B00969A8A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB70B6222A6D666B00969A8A /* OpenGL.framework */; };
+		AB70B6252A6D667100969A8A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB70B6242A6D667100969A8A /* GLUT.framework */; };
+		AB70B6272A6D668400969A8A /* include in Resources */ = {isa = PBXBuildFile; fileRef = AB70B6262A6D668400969A8A /* include */; };
+		AB70B62B2A6D671C00969A8A /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB70B62A2A6D671C00969A8A /* libGLTools.a */; };
+		AB70B6312A76462D00969A8A /* ProjectTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB70B62F2A76462D00969A8A /* ProjectTest.cpp */; };
+		AB70B6332A77469F00969A8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB70B6322A77469F00969A8A /* main.cpp */; };
+		AB70B6362A77471E00969A8A /* Day1_Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB70B6342A77471E00969A8A /* Day1_Demo1.cpp */; };
+		AB70B6392A77472B00969A8A /* Day1_Demo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB70B6372A77472B00969A8A /* Day1_Demo2.cpp */; };
+		AB70B63F2A7FD99100969A8A /* Day2_Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB70B63D2A7FD99100969A8A /* Day2_Demo1.cpp */; };
+		ABB346032ACAB766002A2916 /* Day6_Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABB346012ACAB766002A2916 /* Day6_Demo1.cpp */; };
+		ABB346062ACAB7B9002A2916 /* Day6_Demo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABB346042ACAB7B9002A2916 /* Day6_Demo2.cpp */; };
+		ABB3461F2ACBB0C7002A2916 /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB346172ACBB0C7002A2916 /* stone.tga */; };
+		ABB346202ACBB0C7002A2916 /* MoonLike.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB346182ACBB0C7002A2916 /* MoonLike.tga */; };
+		ABB346212ACBB0C7002A2916 /* SphereMap.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB346192ACBB0C7002A2916 /* SphereMap.tga */; };
+		ABB346222ACBB0C7002A2916 /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB3461A2ACBB0C7002A2916 /* ceiling.tga */; };
+		ABB346232ACBB0C7002A2916 /* brick.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB3461B2ACBB0C7002A2916 /* brick.tga */; };
+		ABB346242ACBB0C7002A2916 /* Marble.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB3461C2ACBB0C7002A2916 /* Marble.tga */; };
+		ABB346252ACBB0C7002A2916 /* Marslike.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB3461D2ACBB0C7002A2916 /* Marslike.tga */; };
+		ABB346262ACBB0C7002A2916 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = ABB3461E2ACBB0C7002A2916 /* floor.tga */; };
+		ABB3462C2ACD0469002A2916 /* Day6_Demo3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABB3462A2ACD0469002A2916 /* Day6_Demo3.cpp */; };
+		ABDC92A62A9AFC3D00A61FB6 /* Day3_Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABDC92A42A9AFC3D00A61FB6 /* Day3_Demo1.cpp */; };
+		ABDC92A92A9CD61600A61FB6 /* Day3_Demo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABDC92A72A9CD61600A61FB6 /* Day3_Demo2.cpp */; };
+		ABDC92AC2A9CD8EE00A61FB6 /* Day3_Demo3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABDC92AA2A9CD8EE00A61FB6 /* Day3_Demo3.cpp */; };
+		ABFC128A2AB71D0300356A6D /* Day4_Demo1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC12882AB71D0300356A6D /* Day4_Demo1.cpp */; };
+		ABFC128D2AB7286600356A6D /* Day4_Demo2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC128B2AB7286600356A6D /* Day4_Demo2.cpp */; };
+		ABFC12902AB738C100356A6D /* Day4_Demo3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC128E2AB738C100356A6D /* Day4_Demo3.cpp */; };
+		ABFC12932AB7D95600356A6D /* Day4_Demo4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABFC12912AB7D95600356A6D /* Day4_Demo4.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB1F633A2AC51366003DCDF3 /* Day5_Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day5_Demo1.cpp; sourceTree = "<group>"; };
+		AB1F633B2AC51366003DCDF3 /* Day5_Demo1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day5_Demo1.hpp; sourceTree = "<group>"; };
+		AB1F633D2AC7B64C003DCDF3 /* Day5_Demo2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day5_Demo2.cpp; sourceTree = "<group>"; };
+		AB1F633E2AC7B64C003DCDF3 /* Day5_Demo2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day5_Demo2.hpp; sourceTree = "<group>"; };
+		AB1F63402AC7CE67003DCDF3 /* Day5_Demo3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day5_Demo3.cpp; sourceTree = "<group>"; };
+		AB1F63412AC7CE67003DCDF3 /* Day5_Demo3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day5_Demo3.hpp; sourceTree = "<group>"; };
+		AB1F63432AC7EEED003DCDF3 /* Day5_Demo4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day5_Demo4.cpp; sourceTree = "<group>"; };
+		AB1F63442AC7EEED003DCDF3 /* Day5_Demo4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day5_Demo4.hpp; sourceTree = "<group>"; };
+		AB70B60F2A6D665900969A8A /* OpenGLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB70B6162A6D665B00969A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB70B6192A6D665B00969A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB70B6222A6D666B00969A8A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AB70B6242A6D667100969A8A /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		AB70B6262A6D668400969A8A /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		AB70B62A2A6D671C00969A8A /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLTools.a; path = "../../Desktop/OpenGL ES 视频教程/视觉班第01次课-OpenGL-第1讲-OpenGL 基本渲染流程/02--OpenGL MAC 环境搭建/02 环境搭建资源/OpenGlShare/libGLTools.a"; sourceTree = "<group>"; };
+		AB70B62F2A76462D00969A8A /* ProjectTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectTest.cpp; sourceTree = "<group>"; };
+		AB70B6302A76462D00969A8A /* ProjectTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProjectTest.hpp; sourceTree = "<group>"; };
+		AB70B6322A77469F00969A8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB70B6342A77471E00969A8A /* Day1_Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1_Demo1.cpp; sourceTree = "<group>"; };
+		AB70B6372A77472B00969A8A /* Day1_Demo2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1_Demo2.cpp; sourceTree = "<group>"; };
+		AB70B6382A77472B00969A8A /* Day1_Demo2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day1_Demo2.hpp; sourceTree = "<group>"; };
+		AB70B63B2A7778B800969A8A /* Day1_Demo1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day1_Demo1.hpp; sourceTree = "<group>"; };
+		AB70B63D2A7FD99100969A8A /* Day2_Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day2_Demo1.cpp; sourceTree = "<group>"; };
+		AB70B63E2A7FD99100969A8A /* Day2_Demo1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day2_Demo1.hpp; sourceTree = "<group>"; };
+		ABB346012ACAB766002A2916 /* Day6_Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day6_Demo1.cpp; sourceTree = "<group>"; };
+		ABB346022ACAB766002A2916 /* Day6_Demo1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day6_Demo1.hpp; sourceTree = "<group>"; };
+		ABB346042ACAB7B9002A2916 /* Day6_Demo2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day6_Demo2.cpp; sourceTree = "<group>"; };
+		ABB346052ACAB7B9002A2916 /* Day6_Demo2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day6_Demo2.hpp; sourceTree = "<group>"; };
+		ABB346172ACBB0C7002A2916 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+		ABB346182ACBB0C7002A2916 /* MoonLike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = MoonLike.tga; sourceTree = "<group>"; };
+		ABB346192ACBB0C7002A2916 /* SphereMap.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = SphereMap.tga; sourceTree = "<group>"; };
+		ABB3461A2ACBB0C7002A2916 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
+		ABB3461B2ACBB0C7002A2916 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick.tga; sourceTree = "<group>"; };
+		ABB3461C2ACBB0C7002A2916 /* Marble.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marble.tga; sourceTree = "<group>"; };
+		ABB3461D2ACBB0C7002A2916 /* Marslike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marslike.tga; sourceTree = "<group>"; };
+		ABB3461E2ACBB0C7002A2916 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		ABB3462A2ACD0469002A2916 /* Day6_Demo3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day6_Demo3.cpp; sourceTree = "<group>"; };
+		ABB3462B2ACD0469002A2916 /* Day6_Demo3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day6_Demo3.hpp; sourceTree = "<group>"; };
+		ABDC92A42A9AFC3D00A61FB6 /* Day3_Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day3_Demo1.cpp; sourceTree = "<group>"; };
+		ABDC92A52A9AFC3D00A61FB6 /* Day3_Demo1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day3_Demo1.hpp; sourceTree = "<group>"; };
+		ABDC92A72A9CD61600A61FB6 /* Day3_Demo2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day3_Demo2.cpp; sourceTree = "<group>"; };
+		ABDC92A82A9CD61600A61FB6 /* Day3_Demo2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day3_Demo2.hpp; sourceTree = "<group>"; };
+		ABDC92AA2A9CD8EE00A61FB6 /* Day3_Demo3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day3_Demo3.cpp; sourceTree = "<group>"; };
+		ABDC92AB2A9CD8EE00A61FB6 /* Day3_Demo3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day3_Demo3.hpp; sourceTree = "<group>"; };
+		ABDDF9E02AFBEC29000C2840 /* OpenGLDemo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = OpenGLDemo.entitlements; sourceTree = "<group>"; };
+		ABFC12882AB71D0300356A6D /* Day4_Demo1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day4_Demo1.cpp; sourceTree = "<group>"; };
+		ABFC12892AB71D0300356A6D /* Day4_Demo1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day4_Demo1.hpp; sourceTree = "<group>"; };
+		ABFC128B2AB7286600356A6D /* Day4_Demo2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day4_Demo2.cpp; sourceTree = "<group>"; };
+		ABFC128C2AB7286600356A6D /* Day4_Demo2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day4_Demo2.hpp; sourceTree = "<group>"; };
+		ABFC128E2AB738C100356A6D /* Day4_Demo3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day4_Demo3.cpp; sourceTree = "<group>"; };
+		ABFC128F2AB738C100356A6D /* Day4_Demo3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day4_Demo3.hpp; sourceTree = "<group>"; };
+		ABFC12912AB7D95600356A6D /* Day4_Demo4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day4_Demo4.cpp; sourceTree = "<group>"; };
+		ABFC12922AB7D95600356A6D /* Day4_Demo4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Day4_Demo4.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB70B60C2A6D665900969A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB70B62B2A6D671C00969A8A /* libGLTools.a in Frameworks */,
+				AB70B6252A6D667100969A8A /* GLUT.framework in Frameworks */,
+				AB70B6232A6D666B00969A8A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1F63392AC5134A003DCDF3 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F633A2AC51366003DCDF3 /* Day5_Demo1.cpp */,
+				AB1F633B2AC51366003DCDF3 /* Day5_Demo1.hpp */,
+				AB1F633D2AC7B64C003DCDF3 /* Day5_Demo2.cpp */,
+				AB1F633E2AC7B64C003DCDF3 /* Day5_Demo2.hpp */,
+				AB1F63402AC7CE67003DCDF3 /* Day5_Demo3.cpp */,
+				AB1F63412AC7CE67003DCDF3 /* Day5_Demo3.hpp */,
+				AB1F63432AC7EEED003DCDF3 /* Day5_Demo4.cpp */,
+				AB1F63442AC7EEED003DCDF3 /* Day5_Demo4.hpp */,
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
+		AB70B6062A6D665900969A8A = {
+			isa = PBXGroup;
+			children = (
+				AB70B6112A6D665900969A8A /* OpenGLDemo */,
+				AB70B6102A6D665900969A8A /* Products */,
+				AB70B6212A6D666B00969A8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB70B6102A6D665900969A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB70B60F2A6D665900969A8A /* OpenGLDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB70B6112A6D665900969A8A /* OpenGLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ABB346002ACAB741002A2916 /* Day6 */,
+				AB1F63392AC5134A003DCDF3 /* Day5 */,
+				ABFC12872AB71CD600356A6D /* Day4 */,
+				ABDC92A32A9AFC1C00A61FB6 /* Day3 */,
+				AB70B63C2A7FCF1C00969A8A /* Day2 */,
+				AB70B62C2A76450100969A8A /* Day1 */,
+				AB70B6262A6D668400969A8A /* include */,
+				AB70B6162A6D665B00969A8A /* Assets.xcassets */,
+				AB70B6182A6D665B00969A8A /* Main.storyboard */,
+				ABDDF9E02AFBEC29000C2840 /* OpenGLDemo.entitlements */,
+				AB70B6322A77469F00969A8A /* main.cpp */,
+			);
+			path = OpenGLDemo;
+			sourceTree = "<group>";
+		};
+		AB70B6212A6D666B00969A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB70B62A2A6D671C00969A8A /* libGLTools.a */,
+				AB70B6242A6D667100969A8A /* GLUT.framework */,
+				AB70B6222A6D666B00969A8A /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB70B62C2A76450100969A8A /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				AB70B62F2A76462D00969A8A /* ProjectTest.cpp */,
+				AB70B6302A76462D00969A8A /* ProjectTest.hpp */,
+				AB70B6342A77471E00969A8A /* Day1_Demo1.cpp */,
+				AB70B6372A77472B00969A8A /* Day1_Demo2.cpp */,
+				AB70B6382A77472B00969A8A /* Day1_Demo2.hpp */,
+				AB70B63B2A7778B800969A8A /* Day1_Demo1.hpp */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
+		AB70B63C2A7FCF1C00969A8A /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				AB70B63D2A7FD99100969A8A /* Day2_Demo1.cpp */,
+				AB70B63E2A7FD99100969A8A /* Day2_Demo1.hpp */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		ABB346002ACAB741002A2916 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3461B2ACBB0C7002A2916 /* brick.tga */,
+				ABB3461A2ACBB0C7002A2916 /* ceiling.tga */,
+				ABB3461E2ACBB0C7002A2916 /* floor.tga */,
+				ABB3461C2ACBB0C7002A2916 /* Marble.tga */,
+				ABB3461D2ACBB0C7002A2916 /* Marslike.tga */,
+				ABB346182ACBB0C7002A2916 /* MoonLike.tga */,
+				ABB346192ACBB0C7002A2916 /* SphereMap.tga */,
+				ABB346172ACBB0C7002A2916 /* stone.tga */,
+				ABB346012ACAB766002A2916 /* Day6_Demo1.cpp */,
+				ABB346022ACAB766002A2916 /* Day6_Demo1.hpp */,
+				ABB346042ACAB7B9002A2916 /* Day6_Demo2.cpp */,
+				ABB346052ACAB7B9002A2916 /* Day6_Demo2.hpp */,
+				ABB3462A2ACD0469002A2916 /* Day6_Demo3.cpp */,
+				ABB3462B2ACD0469002A2916 /* Day6_Demo3.hpp */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
+		ABDC92A32A9AFC1C00A61FB6 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				ABDC92A42A9AFC3D00A61FB6 /* Day3_Demo1.cpp */,
+				ABDC92A52A9AFC3D00A61FB6 /* Day3_Demo1.hpp */,
+				ABDC92A72A9CD61600A61FB6 /* Day3_Demo2.cpp */,
+				ABDC92A82A9CD61600A61FB6 /* Day3_Demo2.hpp */,
+				ABDC92AA2A9CD8EE00A61FB6 /* Day3_Demo3.cpp */,
+				ABDC92AB2A9CD8EE00A61FB6 /* Day3_Demo3.hpp */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		ABFC12872AB71CD600356A6D /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC12882AB71D0300356A6D /* Day4_Demo1.cpp */,
+				ABFC12892AB71D0300356A6D /* Day4_Demo1.hpp */,
+				ABFC128B2AB7286600356A6D /* Day4_Demo2.cpp */,
+				ABFC128C2AB7286600356A6D /* Day4_Demo2.hpp */,
+				ABFC128E2AB738C100356A6D /* Day4_Demo3.cpp */,
+				ABFC128F2AB738C100356A6D /* Day4_Demo3.hpp */,
+				ABFC12912AB7D95600356A6D /* Day4_Demo4.cpp */,
+				ABFC12922AB7D95600356A6D /* Day4_Demo4.hpp */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB70B60E2A6D665900969A8A /* OpenGLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB70B61E2A6D665B00969A8A /* Build configuration list for PBXNativeTarget "OpenGLDemo" */;
+			buildPhases = (
+				AB70B60B2A6D665900969A8A /* Sources */,
+				AB70B60C2A6D665900969A8A /* Frameworks */,
+				AB70B60D2A6D665900969A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLDemo;
+			productName = DemoOpenGL;
+			productReference = AB70B60F2A6D665900969A8A /* OpenGLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB70B6072A6D665900969A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AB70B60E2A6D665900969A8A = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = AB70B60A2A6D665900969A8A /* Build configuration list for PBXProject "OpenGLDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB70B6062A6D665900969A8A;
+			productRefGroup = AB70B6102A6D665900969A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB70B60E2A6D665900969A8A /* OpenGLDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB70B60D2A6D665900969A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB346252ACBB0C7002A2916 /* Marslike.tga in Resources */,
+				ABB3461F2ACBB0C7002A2916 /* stone.tga in Resources */,
+				AB70B6272A6D668400969A8A /* include in Resources */,
+				AB70B6172A6D665B00969A8A /* Assets.xcassets in Resources */,
+				ABB346202ACBB0C7002A2916 /* MoonLike.tga in Resources */,
+				ABB346212ACBB0C7002A2916 /* SphereMap.tga in Resources */,
+				ABB346242ACBB0C7002A2916 /* Marble.tga in Resources */,
+				AB70B61A2A6D665B00969A8A /* Main.storyboard in Resources */,
+				ABB346232ACBB0C7002A2916 /* brick.tga in Resources */,
+				ABB346222ACBB0C7002A2916 /* ceiling.tga in Resources */,
+				ABB346262ACBB0C7002A2916 /* floor.tga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB70B60B2A6D665900969A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFC12902AB738C100356A6D /* Day4_Demo3.cpp in Sources */,
+				ABDC92A92A9CD61600A61FB6 /* Day3_Demo2.cpp in Sources */,
+				AB70B6392A77472B00969A8A /* Day1_Demo2.cpp in Sources */,
+				AB1F63422AC7CE67003DCDF3 /* Day5_Demo3.cpp in Sources */,
+				AB70B6332A77469F00969A8A /* main.cpp in Sources */,
+				AB1F633C2AC51366003DCDF3 /* Day5_Demo1.cpp in Sources */,
+				ABFC128D2AB7286600356A6D /* Day4_Demo2.cpp in Sources */,
+				AB70B6312A76462D00969A8A /* ProjectTest.cpp in Sources */,
+				ABB346032ACAB766002A2916 /* Day6_Demo1.cpp in Sources */,
+				AB70B6362A77471E00969A8A /* Day1_Demo1.cpp in Sources */,
+				AB70B63F2A7FD99100969A8A /* Day2_Demo1.cpp in Sources */,
+				ABB346062ACAB7B9002A2916 /* Day6_Demo2.cpp in Sources */,
+				AB1F63452AC7EEED003DCDF3 /* Day5_Demo4.cpp in Sources */,
+				ABFC128A2AB71D0300356A6D /* Day4_Demo1.cpp in Sources */,
+				AB1F633F2AC7B64C003DCDF3 /* Day5_Demo2.cpp in Sources */,
+				ABFC12932AB7D95600356A6D /* Day4_Demo4.cpp in Sources */,
+				ABDC92A62A9AFC3D00A61FB6 /* Day3_Demo1.cpp in Sources */,
+				ABDC92AC2A9CD8EE00A61FB6 /* Day3_Demo3.cpp in Sources */,
+				ABB3462C2ACD0469002A2916 /* Day6_Demo3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB70B6182A6D665B00969A8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB70B6192A6D665B00969A8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB70B61C2A6D665B00969A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB70B61D2A6D665B00969A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB70B61F2A6D665B00969A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OpenGLDemo/OpenGLDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = /Users/karashokz/OpenGLProject/OpenGLDemo/OpenGLDemo/include;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = /Users/karashokz/OpenGLProject/OpenGLDemo/OpenGLDemo/include;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karashok.DemoOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB70B6202A6D665B00969A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OpenGLDemo/OpenGLDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = /Users/karashokz/OpenGLProject/OpenGLDemo/OpenGLDemo/include;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = /Users/karashokz/OpenGLProject/OpenGLDemo/OpenGLDemo/include;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karashok.DemoOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB70B60A2A6D665900969A8A /* Build configuration list for PBXProject "OpenGLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB70B61C2A6D665B00969A8A /* Debug */,
+				AB70B61D2A6D665B00969A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB70B61E2A6D665B00969A8A /* Build configuration list for PBXNativeTarget "OpenGLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB70B61F2A6D665B00969A8A /* Debug */,
+				AB70B6202A6D665B00969A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB70B6072A6D665900969A8A /* Project object */;
+}
